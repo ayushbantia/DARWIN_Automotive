@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-sm  fixed-top">
+        
+            <ul class="navbar-nav navbar-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><img src="Images/Darwin_Logo(green-yellow)1.png" alt="Darwin_Logo" class="img-fluid" id="logo"></a>
+              </li>
+            </ul>
+            <!--hamburger icon-->
+            <ul class="navbar-nav ml-auto">
+      <div class="hamburger-icon">
+        <div class="container" onclick="SidebarFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+      </div>
+            </ul>
+                <!--Contents of hamburger div-->
+                <div class="sliding-menu" style="display: none; ">
+                  <!--hidden side bar goes here-->
+                </div>
+          </nav>
+          
+                       <!--Contents of hamburger div-->
+                       <div class="sliding-menu" style="display: none; ">
+                        <!--hidden side bar goes-->
+                    <a href="/index.html"> <h3 >Home</h3></a>
+                     <a  href="about.html"><h3>About Us</h3></a>
+                      <a href="crew.html"><h3 >Our Team</h3></a>
+                      <a href="contactus.html"><h3 >Conatct us</h3></a>
+                      </div>
+          <!--contact us-->
+          <section>
+<!--contact form-->
+<div class="contact_us" id="contact" style="padding-top: 100px;padding-bottom: 40px;">
+    <h2 style="font-weight: 600;
+    padding-top: 20px; text-align: center;">CONTACT US</h2>
+    <h4 style="text-align: center;">Lets get in touch.Send us a message:</h4>
+    <div class="contact_info" style="text-align: center;
+    padding-left: 5px; padding-top: 25px;">
+    <h5>Bangalore,India</h5>
+    <h5>Phone:+91 123456789</h5>
+    <h5>Email: abc@gmail.com</h5>
+    </div>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="form-group">
+        
+          <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+        </div>
+        <div class="form-group">
+        
+          <input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+        </div>
+          <div class="form-group">
+         
+          <input type="text" class="form-control" id="subject" placeholder="Subject*" name="subject">
+        </div>
+           <div class="form-group">
+        
+          <input type="text" class="form-control" id="message" placeholder="Message*" name="message">
+        </div>
+        <button type="submit" class="btn btn-success">SEND MESSAGE</button>
+      </form>
+    </div>
+    </div>
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+    <div class="footer-text" style="text-align: left; padding-left: 15%;">
+    <h5>Legal</h5>
+    <a href="#">Terms</a>
+    <br>
+    <a href="#">Privacy Policy</a>
+    </div>
+    <!--social icons-->
+    
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#"> Darwin Automotive</a>
+    </div>
+    <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+          </section>
+</body>
+</html>
